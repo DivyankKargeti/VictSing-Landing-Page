@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	margin-top:80px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Poppins;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+}
+	.navbar-default{
+	background:#fff;
+	border:0;
+	font-family:Poppins;
+}
+
+.navbar-brand{
+	font-size:22px;
+	font-weight:bold ;
+	color:#232323 !important;
+
+}
+
+#showcase{
+	height: 100%;
+}
+
+#showcase h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+#showcase h2{
+	margin-left:30px;
+}
+#showcase img{
+	width:500px;
+	
+	height:400px;
+}
+
+#client{
+	background-image:radial-gradient(circle,#315C2B,#053527);
+	padding:50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+#client h1{
+	color:	#fff;
+}
+#client p{
+	font-size:21px;
+	color:#fff;
+	font-family:'Ubuntu', sans-serif;
+}
+
+.info-right p{
+	font-size:18px;
+	color:black;
+	font-family:'Ubuntu', sans-serif;
+}
+
+.info-left p{
+	font-size:18px;
+	color:black;
+	font-family:'Ubuntu', sans-serif;
+}
+
+#show{
+	min-height: 350px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	padding:40px;
+	border-top:#000 2px solid;
+	border-bottom:#000 2px solid;
+	color:#fff;
+}
+#show h1{
+	color:#fff;
+	font-size:52px;
+}
+
+
+#show p{
+	color:#fff;
+	font-size:26px;
+}
+
+#about2{
+	margin:20px 0 60px 0;
+}
+label{
+	font-size:21px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#fff;
+  font-size:17px;
+  opacity: 1; /* Firefox */
+}
+input[type=text]{
+	color:#fff;
+}
+textarea[type=text]{
+	color:#fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:#fff;
+}
+
+#newshow{
+	min-height: 600px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding:40px;
+	border-top:#000 2px solid;
+	border-bottom:#000 2px solid;
+	color:#fff;
+}
+
+#newshow h1{
+	color:#fff;
+	font-size:62px;
+}
+span{
+	background: rgba(255,255,255,0.4);
+}
+
+#contact{
+	min-height:400px;
+	background-image: url(../images/1a.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	padding:40px;
+	border-bottom:#333 7px solid;
+	color:#fff;
+}
+
+#contact h1{
+	font-size:56px;
+}
+
+footer{
+	padding:45px;
+}
+/*Scrollbar styling*/
+  /*track color*/
+::-webkit-scrollbar {
+    width:11px;
+    background:#333333;
+}
+
+ /*track styling*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+  /*scrollbar thumb color and border radius*/
+::-webkit-scrollbar-thumb {
+    background:rgb(6,131,5);
+    border-radius:0;
+}
+
+   /*while hovering thumb button*/
+::-webkit-scrollbar-thumb:hover {
+    background:green;
+}
